@@ -1,0 +1,283 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #ede3e6;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url("images/logo.jpg") no-repeat;
+	width: 130px;
+	height: 77px;
+	margin: 10px 10px 10px 0px;
+}
+
+.navbar-brand {
+	text-align: left
+}
+
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	text-decoration: none;
+	text-shadow: 10px;
+}
+
+.navbar-brand p {
+	color: #000;
+	font-size: .9em;
+	margin-top: 15px;
+	font-style: italic;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: darkred;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#nav-list a:hover {
+	background: #cdeacc;
+	color: blue;
+	font-weight: bold;
+}
+
+#nav-list a span {
+	font-size: 1.4em;
+}
+
+.item {
+	width: 1500px;
+	height: 700px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#menu-title,
+#rooms-title,
+#map-title {
+	height: 250px;
+	width: 100%;
+	;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0c1F;
+	overflow: hidden;
+}
+
+#menu-title:hover,
+#rooms-title:hover,
+#map-title:hover {
+	box-shadow: 0 3px 5px 3px #897186;
+}
+
+#menu-title {
+	background-image: url("images/motel-tokas-midway%20(6).jpg");
+}
+
+#rooms-title {
+	background-image: url("images/motel-tokas-midway%20(8).jpg");
+}
+
+#menu-title span,
+#rooms-title span,
+#map-title span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	background-color: rgb(198, 58, 160);
+	color: #fff;
+	opacity: 1;
+	text-shadow: 3px 3px 3px #222;
+}
+
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+
+#info,
+#address,
+#Tags {
+	line-height: 2;
+}
+
+#address span,
+#Tags span {
+	font-size: 1.3em;
+	color: yellow;
+}
+
+#address p {
+	color: aliceblue;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#Tags p {
+	font-style: italic;
+	color: darkgray;
+}
+
+#info p {
+	font-weight: bold;
+	color: #9d7616;
+	font-size: 1.8em;
+	text-shadow: 2px 2px 2px white;
+}
+
+#menu-categories-title {
+	background-image: url("images/motel-tokas-midway%20(5).jpg");
+	height: 100px;
+	width: 100%;
+	color: #ea1132;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px white;
+}
+
+.category-tile {
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+	width: 250px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+
+.category-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #5932fc;
+	color: #fff;
+	opacity: .8;
+	text-shadow: 2.5px 2.5px 2.5px #000;
+}
+
+.category-tile:hover {
+	box-shadow: 0 3px 5px 3px #897186;
+}
+
+#about-content {
+	background-image: url("images/motel-tokas-midway%20(3).jpg");
+	height: 200px;
+	width: 100%;
+	color: #ea1132;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px white;
+}
+
+#para {
+	padding: 30px 30px 30px 90px;
+	color: black;
+	line-height: 2;
+	font-style: oblique;
+}
+
+#content h2,
+h5 {
+	color: blue;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px blue;
+}
+
+#room-content {
+	background-image: url("images/non-ac-710x335.jpg");
+	background-position: center;
+	height: 150px;
+	width: 50%;
+	color: #ea1132;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px white;
+}
+
+#facility {
+	color: firebrick;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px firebrick;
+	font-size: 1.6em;
+}
+
+#lis {
+	color: #b41b27;
+	padding-left: 100px;
+	line-height: 2.5;
+	font-size: .8em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#rooms-image img {
+	height: 400px;
+	width: 660px;
+	border: 10px 10px 10px 10px black;
+}
+
+#contact-name {
+	background-image: url("http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg");
+	background-position: bottom;
+	height: 100px;
+	width: 50%;
+	color: #ea1132;
+	font-weight: bolder;
+	text-shadow: 2px 2px 2px white;
+	padding-top: 4px;
+	margin-left: 25%;
+}
+
+#name-label,
+#email-label,
+#msg-label,
+#verify-label {
+	color: black;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#name,
+#email,
+#textarea,
+#human {
+	max-width: 75%;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="index.html" class="pull-left">
+						<div id="logo-img" alt="Logo">
+
+						</div>
+					</a>
+					<div class="navbar-brand">
+
+						<a href="index.html"><h1>Hotel Tokas</h1></a>
+						<p><span>Serving Quality!!!</span></p>
+					</div>
+				</div>
+				<div id="collapsable-nav" class="collape navbar-collape">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="index.html">
+								<span class="glyphicon glyphicon-home"></span>
+								<br>Home</a>
+						</li>
+						<li>
+							<a href="about.html"><span class="glyphicon glyphicon-info-sign"></span><br>About</a>
+						</li>
+						<li>
+							<a href="menu.html">
+								<span class="glyphicon glyphicon-cutlery"></span>
+								<br>Menu</a>
+						</li>
+						<li>
+							<a href="rooms.html">
+								<span class="glyphicon glyphicon-bed"></span>
+								<br>Rooms</a>
+						</li>
+
+						<li class="active">
+							<a href="contact.html">
+								<span class="glyphicon glyphicon-phone-alt"></span>
+								<br>Contact us</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-search"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div id="about-contact" class="container">
+		<div id="contact-name">
+			<h2 id="contact" class="text-center"><strong>Contact us</strong></h2>
+
+			<h4 id="contact-des" class="text-center">Fill out the form below..</h4>
+
+		</div>
+		<br>
+		<br>
+		<div id="form">
+			<form class="form-horizontal" role="form" method="post" action="index.php">
+				<div class="form-group">
+					<label id="name-label" for="name" class="col-sm-2 control-label">Name</label>
+					<div class="col-sm-10">
+						<input type="text" id="name" class="form-control" placeholder="First & Last Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label id="email-label" for="email" class="col-sm-2 control-label">Email</label>
+					<div class="col-sm-10">
+						<input type="email" id="email" class="form-control" name="email" placeholder="example@domain.com">
+					</div>
+				</div>
+				<div class="form-group">
+					<label id="msg-label" for="message" class="col-sm-2 control-label">Message</label>
+					<div class="col-sm-10">
+						<textarea id="textarea" class="form-control" rows="4"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label id="verify-label" for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-10 col-sm-offset-2">
+						<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-10 col-sm-offset-2">
+						<! Will be used to display an alert to the user>
+					</div>
+				</div>
+			</form>
+
+		</div>
+
+
+	</div>
+
+
+
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row">
+				<section id="info" class="col-md-4">
+					<p>
+						"17 Years of experience!
+						<br> 34 Team Members!
+						<br> 12500 Customers served!
+						<br> 75 Dishes!"
+					</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="Tags" class="col-md-4">
+					<span id="tag">
+  				Tags:
+  				</span>
+					<p>
+
+						Hotels in Neemrana, Best Hotel in Neemrana, Best Rooms in Neemrana, Budget Hotel in Neemnrana, Best Rooms in Neemrana, Banquet Hall in Neemrana, Cheap Hotel in Neemrana, Hotel Neemrana, Neemrana Hotel, Hotel in Neemrana, Restaurants in Neemrana.
+					</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="address" class="col-md-4">
+					<span id="Addr">
+  				Address:
+  				</span>
+					<p>
+						Hotel Tokas
+						<br> National Highway 8,
+						<br> Japanese Zone, Neemrana,
+						<br> Rajasthan 301705
+						<br> Phone No. +91-7240401100, +91-7240402200, +91-9352294880, +91-9887988709
+						<br> Email : hoteltokas@gmail.com
+
+					</p>
+					<hr class="visible-xs">
+				</section>
+
+
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="jquery-3.1.0.js"></script>
+	<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
